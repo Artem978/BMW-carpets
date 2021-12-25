@@ -108,6 +108,7 @@ a{
 }
 .clients{
     text-align: center;
+    padding-bottom: 80px;
 }
 .clients-title{
     margin-top: 80px;
@@ -147,6 +148,105 @@ a{
 }
 .client-quality{
     text-align: center;
+}
+.types-of-skin{
+    background-color: #F2F2F2;
+}
+.type-of-skin-block{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.type-of-skin{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 0;
+}
+.type-of-skin:nth-child(2){
+    background: rgba(224,224,224,0.3);
+}
+.type-of-skin:nth-child(3){
+    background: rgba(224,224,224,0.6);
+}
+.type-of-skin:nth-child(4){
+    background: rgba(224,224,224,0.8);
+}
+.type-of-skin-title{
+    border-bottom: 1px solid #ff3448;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 14pt;
+    font-weight: 300;
+}
+.type-of-skin-type{
+    font-size: 14pt;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.type-of-skin-price{
+    font-weight: bold;
+    font-size: 14pt;
+    color: #212529;
+}
+.skin-characteristics{
+    font-weight: bold;
+    border-bottom: 10px solid white;
+    margin-bottom: 92px;
+    min-width: 20%;
+}
+.skin-description{
+    border-bottom: 10px solid white;
+}
+.skin-description-image{
+    margin: 30px;
+}
+.skin-description-width,.skin-description-cykles,.skin-description-garanty,.skin-characteristics-width,.skin-characteristics-cycles,.skin-characteristics-garanty{
+    padding: 20px 10px;
+    border-top: 1px solid #e0e0e0;
+    font-size: 14pt;
+}
+.skin-description-image{
+    width: 251px;
+    height: 128px;
+}
+.buy-button{
+    cursor: pointer;
+    text-transform: uppercase;
+    background: #ff3448;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 20px 10px;
+    border-radius: 10px;
+    border:none;
+    font-size: 14pt;
+    width: 90%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+.sertificates{
+    background-color: #F2F2F2;
+    padding-top: 40px;
+    padding-bottom: 90px;
+}
+.sertificates-title{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2rem;
+    padding-bottom: 45px;
+}
+.sertificate-images{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.sertificate-image{
+    width: 250px;
+    height: 315px;
 }
 .reviews{
     text-align: center;
