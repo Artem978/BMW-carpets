@@ -56,19 +56,28 @@ const rightPrevSlide = () =>{
         rightActiveSlide(rightIndex);
     }
 }
+
 var timer = 0;
  makeTimer(); 
  function makeTimer(){
     clearInterval(timer)
     timer = setInterval(function(){
-      leftIndex++;
-      leftActiveSlide(leftIndex);
-    },3000);
+    if (leftIndex==leftSlides.length-1){
+        leftIndex=0;
+    }
+    else{leftIndex++;
+        leftActiveSlide(leftIndex);
+    }},3000);
     timer = setInterval(function(){
-        rightIndex++;
-        rightActiveSlide(rightIndex);
-      },4000);
-  }
+        if (rightIndex==rightSlides.length-1){
+            rightIndex=0;
+        }
+        else{
+            rightIndex++;
+            rightActiveSlide(rightIndex);
+        }},4000);
+    }
+
 leftNext.addEventListener('click',leftNextSlide);
 leftPrev.addEventListener('click',leftPrevSlide);
 rightNext.addEventListener('click',rightNextSlide);

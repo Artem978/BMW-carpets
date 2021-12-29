@@ -225,6 +225,140 @@ a{
 .slider-button:hover{
     background-color: #0D0D0D;
 }
+.design{
+    position: relative;
+    background-color: #F2F2F2;
+    padding: 35px;
+}
+.design::before{
+    content: '';
+    position: absolute;
+    width: 291px;
+    height: 18px;
+    background: url(../img/design-constructor/dot.png);
+    left: -261px;
+    top: 45px;
+}
+.design-title{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 40px;
+    font-weight: bold;
+    color: #212529;
+}
+.design-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.design-constructor-subtitle{
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 12pt;
+    font-weight: bold;
+    color: #212529;
+    margin-bottom: 20px;
+}
+.select-block{
+    display: flex;
+}
+.select-picture{
+    margin-bottom: 30px;
+}
+.select-block-item{
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+.select-block-item-bg{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-right: 7px;
+    cursor: pointer;
+}
+.point{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 15px;
+    width: 15px;
+    background-color: #ff3448;
+    border-radius: 100%;
+}
+.point-active{
+    display: block;
+}
+.select-color{
+    margin-bottom: 15px;
+}
+.select-color .select-block-item{
+    flex-direction: column;
+    text-align: center;
+}
+.select-block-color{
+    display: none;
+}
+.select-block-item-image{
+    width: 58px;
+    height: 58px;
+    border-radius: 100%;
+    border: 3px solid white;
+    cursor: pointer;
+}
+.select-block-item-image-active{
+    border: 3px solid #cf4f42;
+}
+.select-insert .select-block-item{
+    flex-direction: column;
+    text-align: center;
+}
+.select-block-label{
+    font-weight: 300;
+    font-size: 10pt;
+    margin-top: 5px;
+    max-width: 80px;
+}
+.design-image{
+    position: relative;
+}
+.design-image-main{
+    width: 100%;
+    height: 100%;
+}
+.design-insert-image{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.design-button-block{
+    background-color: #EDEDED;
+    padding: 40px 30px;
+    margin-top: 0px;
+}
+.design-button{
+    color: #ffffff;
+    background: #ff3448;
+    border-radius: 10px;
+    text-transform: uppercase;
+    padding: 15px 25px 15px 25px;
+    border: none;
+    line-height: 1.75;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 12pt;
+}
+.design-button:hover{
+    background-color: #D42C3E;
+}
 .types-of-skin{
     background-color: #F2F2F2;
 }
