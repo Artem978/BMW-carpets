@@ -70,82 +70,82 @@ line.addEventListener('click',()=>{
 firstImage.addEventListener('click',()=>{
     removeImageActiveClass();
     firstImage.classList.add('select-block-item-image-active');
-    designImage.src="/img/design-constructor/design-image1.jpg";
+    designImage.src="img/design-constructor/design-image1.jpg";
 })
 secondImage.addEventListener('click',()=>{
     removeImageActiveClass();
     secondImage.classList.add('select-block-item-image-active')
-    designImage.src="/img/design-constructor/design-image2.jpg";
+    designImage.src="img/design-constructor/design-image2.jpg";
 })
 thirdImage.addEventListener('click',()=>{
     removeImageActiveClass();
     thirdImage.classList.add('select-block-item-image-active');
-    designImage.src="/img/design-constructor/design-image3.jpg";
+    designImage.src="img/design-constructor/design-image3.jpg";
 })
 forthImage.addEventListener('click',()=>{
     removeImageActiveClass();
     forthImage.classList.add('select-block-item-image-active');
-    designImage.src="/img/design-constructor/design-image4.jpg";
+    designImage.src="img/design-constructor/design-image4.jpg";
 })
 fifthImage.addEventListener('click',()=>{
     removeImageActiveClass();
     fifthImage.classList.add('select-block-item-image-active');
-    designImage.src="/img/design-constructor/design-image5.jpg";
+    designImage.src="img/design-constructor/design-image5.jpg";
 })
 sixthImage.addEventListener('click',()=>{
     removeImageActiveClass();
     sixthImage.classList.add('select-block-item-image-active');
-    designImage.src="/img/design-constructor/design-image6.jpg";
+    designImage.src="img/design-constructor/design-image6.jpg";
 })
 seventhImage.addEventListener('click',()=>{
     removeImageActiveClass();
     seventhImage.classList.add('select-block-item-image-active');
-    designImage.src="/img/design-constructor/design-image7.jpg";
+    designImage.src="img/design-constructor/design-image7.jpg";
 })
 eighthImage.addEventListener('click',()=>{
     removeImageActiveClass();
     eighthImage.classList.add('select-block-item-image-active');
-    designImage.src="/img/design-constructor/design-image8.jpg";
+    designImage.src="img/design-constructor/design-image8.jpg";
 })
 ninethImage.addEventListener('click',()=>{
     removeImageActiveClass();
     ninethImage.classList.add('select-block-item-image-active');
-    designImage.src="/img/design-constructor/design-image9.jpg";
+    designImage.src="img/design-constructor/design-image9.jpg";
 })
 tenthImage.addEventListener('click',()=>{
     removeImageActiveClass();
     tenthImage.classList.add('select-block-item-image-active');
-    designImage.src="/img/design-constructor/design-image10.jpg";
+    designImage.src="img/design-constructor/design-image10.jpg";
 })
 eleventhImage.addEventListener('click',()=>{
     removeImageActiveClass();
     eleventhImage.classList.add('select-block-item-image-active');
-    designImage.src="/img/design-constructor/design-image11.jpg";
+    designImage.src="img/design-constructor/design-image11.jpg";
 })
 tvelvethImage.addEventListener('click',()=>{
     removeImageActiveClass();
     tvelvethImage.classList.add('select-block-item-image-active');
-    designImage.src="/img/design-constructor/design-image12.jpg";
+    designImage.src="img/design-constructor/design-image12.jpg";
 })
 thirtinthImage.addEventListener('click',()=>{
     removeImageActiveClass();
     thirtinthImage.classList.add('select-block-item-image-active');
-    designImage.src="/img/design-constructor/design-image13.jpg";
+    designImage.src="img/design-constructor/design-image13.jpg";
 })
 fortynthImage.addEventListener('click',()=>{
     removeImageActiveClass();
     fortynthImage.classList.add('select-block-item-image-active');
-    designImage.src="/img/design-constructor/design-image14.jpg";
+    designImage.src="img/design-constructor/design-image14.jpg";
 })
 fiftinthImage.addEventListener('click',()=>{
     removeImageActiveClass();
     fiftinthImage.classList.add('select-block-item-image-active');
-    designImage.src="/img/design-constructor/design-image15.jpg";
+    designImage.src="img/design-constructor/design-image15.jpg";
 })
 sixtinthImage.addEventListener('click',()=>{
     removeImageActiveClass();
     sixtinthImage.classList.add('select-block-item-image-active');
-    designImage.src="/img/design-constructor/design-image16.jpg";
+    designImage.src="img/design-constructor/design-image16.jpg";
 })
 seventinthImage.addEventListener('click',()=>{
     removeInsertActiveClass();
