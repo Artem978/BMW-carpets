@@ -56,7 +56,7 @@ const rightPrevSlide = () =>{
         rightActiveSlide(rightIndex);
     }
 }
-
+/*
 var timer = 0;
  makeTimer(); 
  function makeTimer(){
@@ -77,7 +77,7 @@ var timer = 0;
             rightActiveSlide(rightIndex);
         }},4000);
     }
-
+*/
 leftNext.addEventListener('click',leftNextSlide);
 leftPrev.addEventListener('click',leftPrevSlide);
 rightNext.addEventListener('click',rightNextSlide);
