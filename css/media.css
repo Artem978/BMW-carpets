@@ -35,6 +35,25 @@
     .design::before{
         display: none;
     }
+    .quiz-image img{
+        height: 157px;
+        width: 157px;
+    }
+    .quiz-image span{
+        max-width: 157px;
+    }
+    .quiz-window{
+        width: 80%;
+    }
+    .quiz-info{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .quiz-description{
+        font-size: 14px;
+        font-weight: 400;
+        padding: 40px 100px 40px 65px;
+    }
 }
 @media(max-width:992px){
     .container{
@@ -109,7 +128,30 @@
     .design-title{
         font-size: 1.5rem;
     }
-
+    .quiz-images{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .quiz-image{
+        flex-basis: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .quiz-images2{
+        flex-wrap: nowrap;
+    }
+    .quiz-image2{
+        width: 157px;
+        height: 117px;
+    }
+    .quiz-image-active::before{
+       left: 20%; 
+    }
+    .quiz-title{
+        font-size: 24px;
+    }
 }
 @media(max-width:768px){
     .container{
@@ -159,11 +201,49 @@
     .design-title{
         font-size: 1.25rem;
     }
+    .quiz-images{
+        margin-bottom: 75px;
+    }
     .design-image{
         margin-top: 25px;
         align-self: center;
     }
-    
+    .quiz-description{
+        padding: 40px 50px 40px 20px;
+    }
+    .quiz-description::before{
+        display: none;
+    }
+    .quiz-description::after{
+        right: 15px;
+        top: 10px;
+    }
+    .quiz-title{
+        font-size: 20px;
+        text-align: center;
+    }
+    .quiz-image-active::before{
+        left: 5%; 
+     }
+     .quiz-button{
+         padding-left: 30px;
+         padding-right: 30px;
+     }
+     .quiz-button::before, .quiz-button::after{
+         display: none;
+     }
+     .quiz-images2{
+        flex-wrap: wrap;
+    }
+    .quiz-image2{
+        flex-basis: 100%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .quiz-image2 img{
+        width: 80%;
+        height:auto;
+    }
 }
 @media(max-width:576px){
     .container{
@@ -287,5 +367,26 @@
     }
     .design-constructor-subtitle{
         font-size: 10pt;
+    }
+    .quiz-image-active::before{
+        left: 10%; 
+     }
+     .quiz-button{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .quiz-input{
+        font-size: 14px;
+    }
+    .quiz-input-label{
+        bottom: -90px;
+        font-size: 8px;
+    }
+    .phone-input::placeholder{
+        font-size: 12px;
+    }
+    .last-button{
+        padding-right: 5px;
+        padding-left: 5px;
     }
 }

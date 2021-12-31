@@ -60,8 +60,7 @@
     </div>
     <!-- /.clients -->
     <hr color="#282A44" size="7">
-    <div class="select-design">
-        <div class="container">
+    <div id="select-design" class="select-design">
             <h2 class="select-design-title">Выбор дизайна</h2>
             <div class="sliders">
                 <div class="slider">
@@ -76,7 +75,7 @@
                         <button class="arrow arrow-right" id="left-arrow-right"><svg width="30" height="30" viewBox="0 0 94 94" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: block;">							<path d="M39 68L60 47L39 26" stroke="black" vector-effect="non-scaling-stroke" style="stroke-width: 1px; stroke: rgb(0, 0, 0);"></path></svg></button>
                     </div>
                     <h3 class="select-design-subtitle">Рисунок КВАДРАТ</h3>
-                    <button class="slider-button">Заказать квадрат</button>
+                    <button id="order-square-button" class="slider-button">Заказать квадрат</button>
                 </div>
                 <div class="slider">
                     <div class="slider-images">
@@ -90,10 +89,235 @@
                         <button class="arrow arrow-right" id="right-arrow-right"><svg width="30" height="30" viewBox="0 0 94 94" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: block;">							<path d="M39 68L60 47L39 26" stroke="black" vector-effect="non-scaling-stroke" style="stroke-width: 1px; stroke: rgb(0, 0, 0);"></path></svg></button>
                     </div>
                     <h3 class="select-design-subtitle">Рисунок РОМБ</h3>
-                    <button class="slider-button">Заказать ромб</button>
+                    <button id="order-rhomb-button" class="slider-button">Заказать ромб</button>
                 </div>
             </div>
         </div>
+        <div id="quiz1" class="quiz">
+            <svg id="quiz-close" class="quiz-close" width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g stroke="none" stroke-width="1" fill="#fff" fill-rule="evenodd">
+                    <rect transform="translate(11.313708, 11.313708) rotate(-45.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect>
+                    <rect transform="translate(11.313708, 11.313708) rotate(-315.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect>
+                </g>
+            </svg>
+            <div class="quiz-window">
+                <p class="quiz-description quiz-description1">Минимальная стоимость, c учетом всех скидок, составляет 8990р. Если это Дорого, пожалуйста не заполняйте форму!</p>
+                <div class="quiz-info">
+                    <h2 class="quiz-title">Выберите цвет для дизайна КВАДРАТ</h2>
+                    <div id="quiz-images" class="quiz-images">
+                        <div class="quiz-image">
+                            <img src="img/quiz/square/1.jpg" alt="1">
+                            <span>черный</span>
+                        </div>
+                        <div class="quiz-image">
+                            <img src="img/quiz/square/2.jpg" alt="2">
+                            <span>бежевый</span>
+                        </div>
+                        <div class="quiz-image">
+                            <img src="img/quiz/square/3.jpg" alt="3">
+                            <span>тёмно-коричневый</span>
+                        </div>
+                        <div class="quiz-image">
+                            <img src="img/quiz/square/4.jpg" alt="4">
+                            <span>светло-коричневый</span>
+                        </div>
+                    </div>
+                    <div class="quiz-buttons">
+                        <button id="button-before" class=" quiz-button button-before">Назад</button>
+                        <button id="button-next" class="quiz-button button-next">Далее</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/quiz-->
+        <div id="quiz2" class="quiz">
+            <svg id="quiz-close" class="quiz-close" width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g stroke="none" stroke-width="1" fill="#fff" fill-rule="evenodd">
+                    <rect transform="translate(11.313708, 11.313708) rotate(-45.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect>
+                    <rect transform="translate(11.313708, 11.313708) rotate(-315.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect>
+                </g>
+            </svg>
+            <div class="quiz-window">
+                <p class="quiz-description quiz-description2">Минимальная стоимость, c учетом всех скидок, составляет 8990р. Если это Дорого, пожалуйста не заполняйте форму!</p>
+                <div class="quiz-info">
+                    <h2 class="quiz-title">Выберите Тип Экокожи</h2>
+                    <div id="quiz-images" class="quiz-images quiz-images2">
+                        <div class="quiz-image quiz-image2">
+                            <img src="img/quiz/square/5.jpg" alt="5">
+                            <span>standart 11990</span>
+                        </div>
+                        <div class="quiz-image quiz-image2">
+                            <img src="img/quiz/square/6.jpg" alt="6">
+                            <span>forsage 14990</span>
+                        </div>
+                        <div class="quiz-image quiz-image2">
+                            <img src="img/quiz/square/7.png" alt="7">
+                            <span>execlusive 24990</span>
+                        </div>
+                    </div>
+                    <div class="quiz-buttons">
+                        <button id="button-before" class=" quiz-button button-before">Назад</button>
+                        <button id="button-next" class="quiz-button button-next">Далее</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/quiz-->
+        <div id="quiz3" class="quiz">
+            <svg id="quiz-close" class="quiz-close" width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g stroke="none" stroke-width="1" fill="#fff" fill-rule="evenodd">
+                    <rect transform="translate(11.313708, 11.313708) rotate(-45.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect>
+                    <rect transform="translate(11.313708, 11.313708) rotate(-315.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect>
+                </g>
+            </svg>
+            <div class="quiz-window">
+                <p class="quiz-description quiz-description3">Минимальная стоимость, c учетом всех скидок, составляет 8990р. Если это Дорого, пожалуйста не заполняйте форму!</p>
+                <div class="quiz-info">
+                    <h2 class="quiz-title">Ваша Модель Автомобиля</h2>
+                    <input id="quiz-input" class="quiz-input" placeholder="Например, BMW X5" type="text">
+                    <label for="" id="quiz-input-label" class="quiz-input-label">Пожалуйста заполните все обязательные поля</label>
+                    <div class="quiz-buttons">
+                        <button id="button-before" class=" quiz-button button-before">Назад</button>
+                        <button id="button-next" class="quiz-button button-next">Далее</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/quiz-->
+        <div id="quiz4" class="quiz">
+            <svg id="quiz-close" class="quiz-close" width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g stroke="none" stroke-width="1" fill="#fff" fill-rule="evenodd">
+                    <rect transform="translate(11.313708, 11.313708) rotate(-45.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect>
+                    <rect transform="translate(11.313708, 11.313708) rotate(-315.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect>
+                </g>
+            </svg>
+            <div class="quiz-window">
+                <p class="quiz-description quiz-description4">Всё почти готово! Оставьте свой номер и мы свяжемся с Вами в ближайшее время</p>
+                <div class="quiz-info">
+                    <h2 class="quiz-title">Введите номер телефона и оформите СКИДКУ!</h2>
+                    <input id="phone-input" class="quiz-input phone-input" placeholder="Введите Ваш номер телефона" type="text">
+                    <label for="" id="input-phone-label" class="quiz-input-label input-phone-label">Обязательное поле</label>
+                    <div class="quiz-buttons">
+                        <button id="button-before" class=" quiz-button button-before">Назад</button>
+                        <button id="button-next" class="quiz-button button-next last-button">Узнать стоимость!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/quiz-->
+        <!--/quiz-square-->
+    </div>
+    <div id="quiz5" class="quiz">
+            <svg id="quiz-close" class="quiz-close" width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g stroke="none" stroke-width="1" fill="#fff" fill-rule="evenodd">
+                    <rect transform="translate(11.313708, 11.313708) rotate(-45.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect>
+                    <rect transform="translate(11.313708, 11.313708) rotate(-315.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect>
+                </g>
+            </svg>
+            <div class="quiz-window">
+                <p class="quiz-description quiz-description1">Минимальная стоимость, c учетом всех скидок, составляет 8990р. Если это Дорого, пожалуйста не заполняйте форму!</p>
+                <div class="quiz-info">
+                    <h2 class="quiz-title">Выберите цвет для дизайна Ромб</h2>
+                    <div id="quiz-images" class="quiz-images quiz-images3">
+                        <div class="quiz-image">
+                            <img src="img/quiz/rhomb/1.jpg" alt="1">
+                            <span>черный</span>
+                        </div>
+                        <div class="quiz-image">
+                            <img src="img/quiz/rhomb/2.jpg" alt="2">
+                            <span>бежевый</span>
+                        </div>
+                        <div class="quiz-image">
+                            <img src="img/quiz/rhomb/3.jpg" alt="3">
+                            <span>тёмно-коричневый</span>
+                        </div>
+                        <div class="quiz-image">
+                            <img src="img/quiz/rhomb/4.jpg" alt="4">
+                            <span>светло-коричневый</span>
+                        </div>
+                    </div>
+                    <div class="quiz-buttons">
+                        <button id="button-before" class=" quiz-button button-before">Назад</button>
+                        <button id="button-next" class="quiz-button button-next">Далее</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/quiz-->
+        <div id="quiz6" class="quiz">
+            <svg id="quiz-close" class="quiz-close" width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g stroke="none" stroke-width="1" fill="#fff" fill-rule="evenodd">
+                    <rect transform="translate(11.313708, 11.313708) rotate(-45.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect>
+                    <rect transform="translate(11.313708, 11.313708) rotate(-315.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect>
+                </g>
+            </svg>
+            <div class="quiz-window">
+                <p class="quiz-description quiz-description2">Ответьте на несколько вопросов и узнайте точную стоимость ковриков</p>
+                <div class="quiz-info">
+                    <h2 class="quiz-title">Нужны ли Вам накладки на коврики?</h2>
+                    <div id="quiz-images" class="quiz-images quiz-images2">
+                        <div class="quiz-image quiz-image2">
+                            <img src="img/quiz/rhomb/5.jpg" alt="5">
+                            <span>ПВХ</span>
+                        </div>
+                        <div class="quiz-image quiz-image2">
+                            <img src="img/quiz/rhomb/6.jpg" alt="6">
+                            <span>Кавролин</span>
+                        </div>
+                        <div class="quiz-image quiz-image2">
+                            <img src="img/quiz/rhomb/7.png" alt="7">
+                            <span>Не нужны</span>
+                        </div>
+                    </div>
+                    <div class="quiz-buttons">
+                        <button id="button-before" class=" quiz-button button-before">Назад</button>
+                        <button id="button-next" class="quiz-button button-next">Далее</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/quiz-->
+        <div id="quiz7" class="quiz">
+            <svg id="quiz-close" class="quiz-close" width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g stroke="none" stroke-width="1" fill="#fff" fill-rule="evenodd">
+                    <rect transform="translate(11.313708, 11.313708) rotate(-45.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect>
+                    <rect transform="translate(11.313708, 11.313708) rotate(-315.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect>
+                </g>
+            </svg>
+            <div class="quiz-window">
+                <p class="quiz-description quiz-description3">Минимальная стоимость, c учетом всех скидок, составляет 8990р. Если это Дорого, пожалуйста не заполняйте форму!</p>
+                <div class="quiz-info">
+                    <h2 class="quiz-title">Ваша Модель Автомобиля</h2>
+                    <input  class="quiz-input" placeholder="Например, BMW X5" type="text">
+                    <label id="quiz-input-label" class="quiz-input-label">Пожалуйста заполните все обязательные поля</label>
+                    <div class="quiz-buttons">
+                        <button id="button-before" class=" quiz-button button-before">Назад</button>
+                        <button id="button-next" class="quiz-button button-next">Далее</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/quiz-->
+        <div id="quiz8" class="quiz">
+            <svg id="quiz-close" class="quiz-close" width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g stroke="none" stroke-width="1" fill="#fff" fill-rule="evenodd">
+                    <rect transform="translate(11.313708, 11.313708) rotate(-45.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect>
+                    <rect transform="translate(11.313708, 11.313708) rotate(-315.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect>
+                </g>
+            </svg>
+            <div class="quiz-window">
+                <p class="quiz-description quiz-description4">Всё почти готово! Оставьте свой номер и мы свяжемся с Вами в ближайшее время</p>
+                <div class="quiz-info">
+                    <h2 class="quiz-title">Введите номер телефона и оформите СКИДКУ!</h2>
+                    <input id="" class="quiz-input phone-input" placeholder="Введите Ваш номер телефона" type="text">
+                    <label for="" id="input-phone-label" class="input-phone-label quiz-input-label">Обязательное поле</label>
+                    <div class="quiz-buttons">
+                        <button id="button-before" class=" quiz-button button-before">Назад</button>
+                        <button id="button-next" class="quiz-button button-next last-button">Узнать стоимость!</button>
+                    </div>
+                </div>
+            </div>
+        <!--/quiz-->
     </div>
     <!--/select-design-->
     <div class="design">
@@ -316,5 +540,6 @@
     </footer>
     <script src="js/slider.js"></script>
     <script src="js/design-constructor.js"></script>
+    <script src="js/quiz.js"></script>
 </body>
 </html>
