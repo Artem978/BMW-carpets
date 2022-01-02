@@ -79,58 +79,72 @@ close[7].addEventListener('click',() =>{
 quizImages[0].addEventListener('click',() =>{
     removeActiveClass();
     quizImages[0].classList.add('quiz-image-active');
+    nextButton(quizIndex)
 })
 quizImages[1].addEventListener('click',() =>{
     removeActiveClass();
     quizImages[1].classList.add('quiz-image-active');
+    nextButton(quizIndex)
 })
 quizImages[2].addEventListener('click',() =>{
     removeActiveClass();
     quizImages[2].classList.add('quiz-image-active');
+    nextButton(quizIndex)
 })
 quizImages[3].addEventListener('click',() =>{
     removeActiveClass();
     quizImages[3].classList.add('quiz-image-active');
+    nextButton(quizIndex)
 })
 quizImages[4].addEventListener('click',() =>{
     removeActiveClass();
     quizImages[4].classList.add('quiz-image-active');
+    nextButton(quizIndex)
 })
 quizImages[5].addEventListener('click',() =>{
     removeActiveClass();
     quizImages[5].classList.add('quiz-image-active');
+    nextButton(quizIndex)
 })
 quizImages[6].addEventListener('click',() =>{
     removeActiveClass();
     quizImages[6].classList.add('quiz-image-active');
+    nextButton(quizIndex)
 })
 quizImages[7].addEventListener('click',() =>{
     removeActiveClass();
     quizImages[7].classList.add('quiz-image-active');
+    nextButton(quizIndex)
 })
 quizImages[8].addEventListener('click',() =>{
     removeActiveClass();
     quizImages[8].classList.add('quiz-image-active');
+    nextButton(quizIndex)
 })
 quizImages[9].addEventListener('click',() =>{
     removeActiveClass();
     quizImages[9].classList.add('quiz-image-active');
+    nextButton(quizIndex)
 })
 quizImages[10].addEventListener('click',() =>{
     removeActiveClass();
     quizImages[10].classList.add('quiz-image-active');
+    nextButton(quizIndex)
 })
 quizImages[11].addEventListener('click',() =>{
     removeActiveClass();
     quizImages[11].classList.add('quiz-image-active');
+    nextButton(quizIndex)
 })
 quizImages[12].addEventListener('click',() =>{
     removeActiveClass();
     quizImages[12].classList.add('quiz-image-active');
+    nextButton(quizIndex)
 })
 quizImages[13].addEventListener('click',() =>{
     removeActiveClass();
     quizImages[13].classList.add('quiz-image-active');
+    nextButton(quizIndex)
 })
 nextButtons[0].addEventListener('click',()=>{
     var flag=false;
