@@ -1,7 +1,6 @@
 const
     rhomb=document.getElementById('rhomb'),
     square=document.getElementById('square'),
-    line=document.getElementById('line'),
     points=document.querySelectorAll('.point'),
     selectBlockColor=document.querySelectorAll('.select-block-color'),
     designImage=document.getElementById('design-image-main'),
@@ -60,11 +59,6 @@ rhomb.addEventListener('click',() =>{
 square.addEventListener('click',()=>{
     selectPicture(square);
     i=1;
-    colorBlock(i);
-});
-line.addEventListener('click',()=>{
-    selectPicture(line);
-    i=2;
     colorBlock(i);
 });
 firstImage.addEventListener('click',()=>{
