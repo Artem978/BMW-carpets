@@ -51,7 +51,7 @@ const sendEmail = () => {
         From : "bmwcarpets@gmail.com",
         Subject : "Коврики bmw",
         Body : `Рисунок: ${picture}; Цвет: ${color}; Тип: ${type}; Модель авто: ${autoModel}, Номер телефона: ${phoneNumber}`
-    }).then();
+    }).then(console.log('Форма успешно отправлена'));
 }
 const thanYouPage = () =>{
     document.location.href = "thankyou.html"
